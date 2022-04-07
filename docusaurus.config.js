@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'مدونتي',
   tagline: 'Dinosaurs are cool',
-  url: 'https://samehelalfi.github.io',
+  url: 'https://personal-blog-samehelalfi.vercel.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
