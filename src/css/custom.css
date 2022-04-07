@@ -37,3 +37,13 @@
 [data-theme="dark"] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
+
+/* Make the heading anchor move to the start of the heading */
+.markdown :where(h1, h2, h3, h4, h5, h6) {
+  position: relative;
+}
+.hash-link {
+  position: absolute;
+  top: 0;
+  right: 100%;
+}
